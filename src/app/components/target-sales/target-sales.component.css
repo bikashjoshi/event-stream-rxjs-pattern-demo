@@ -1,0 +1,17 @@
+input {
+    color:white;
+    background-color: cadetblue;    
+}
+
+.sales-component-container {
+    border-width:0.1px;
+    border-style:dotted;
+    margin: 10px;
+    background-color: cadetblue;
+}
+
+.sales-target-container {
+    display:flex;
+    justify-content:space-between;
+    margin: 2px;
+}

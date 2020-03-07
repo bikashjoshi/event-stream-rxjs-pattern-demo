@@ -1,0 +1,14 @@
+<div class="sales-component-container">
+    <div class="sales-target-container">
+        <span>Daily sales target:</span>
+        <input type="number"[value]="targetSalesEventStream.perDayEventStream.event$ | async" (change)="onDailyTargetChanges($event.target.value)"/>
+    </div>
+    <div class="sales-target-container">
+        <span>Weekly sales target:</span>
+        <input type="number" [value]="targetSalesEventStream.perWeekEventStream.event$ | async" (change)="onWeeklyTargetChanges($event.target.value)"/>
+    </div>
+    <div class="sales-target-container">
+        <span>Monthly sales target:</span>
+        <input type="number" [value]="targetSalesEventStream.perMonthEventStream.event$ | async" (change)="onMonthlyTargetChanges($event.target.value)"/>
+    </div>
+</div>

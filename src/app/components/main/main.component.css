@@ -1,0 +1,11 @@
+.main-component-container {
+    border-width:0.1px;
+    border-style:solid;
+    margin:10px;
+    width:350px;  
+    background-color: darkgray;
+}
+
+.main-title {
+    text-align:center;
+}

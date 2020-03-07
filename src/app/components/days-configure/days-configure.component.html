@@ -1,0 +1,18 @@
+<div class="target-sales-component-container">
+    <div class="days-configure-container">
+        <span>Days per week:</span>        
+        <input type="number"             
+            [max]="maxDaysInWeek"
+            [min]="minimumDays"
+            [value]="daysConfigEventStream.daysPerWeekEventStream.event$ | async"            
+            (change)="perWeekDaysChange($event.target.value)"/>
+    </div>
+    <div class="days-configure-container">
+        <span>Days in month:</span>
+        <input type="number"             
+            [max]="maxDaysInMonth"
+            [min]="minimumDays"
+            [value]="daysConfigEventStream.daysPerMonthEventStream.event$ | async" 
+            (change)="perMonthDaysChange($event.target.value)"/>
+    </div>
+</div>

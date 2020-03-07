@@ -1,0 +1,17 @@
+input {
+    color:white;
+    background-color: cornflowerblue;
+}
+
+.target-sales-component-container {
+    border-width:0.1px;
+    border-style:dotted;
+    margin: 10px;
+    background-color: cornflowerblue;
+}
+
+.days-configure-container {
+    display:flex;
+    justify-content: space-between;
+    margin: 2px;
+}
